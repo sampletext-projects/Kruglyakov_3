@@ -26,7 +26,7 @@ namespace Kruglyakov_3
             double cosz = Math.Cos(z);
 
             double sinz_n = sinz;
-            double cosz_n = sinz;
+            double cosz_n = cosz;
             double fact = 2;
             double x_n = x;
 
@@ -41,6 +41,7 @@ namespace Kruglyakov_3
             }
 
             Console.WriteLine("W: {0}", w);
+            Console.ReadKey();
         }
     }
 }
